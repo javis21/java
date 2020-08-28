@@ -1,0 +1,6 @@
+let Kelvin =0 ; // kevin const 
+let Celsius= Kelvin - 273  ;//convert to cel
+let Fahrenheit = Celsius * (9/5) + 32 ; //covert to fah
+
+Fahrenheit = Math.floor(Fahrenheit);//floor method 
+console.log("The temperature is "+Fahrenheit+"  degrees Fahrenheit.");
